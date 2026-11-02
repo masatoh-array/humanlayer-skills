@@ -1,0 +1,21 @@
+{
+  "name": "narrow-react-prop-types",
+  "version": "1.0.0",
+  "description": "Narrow React component prop types to match live code paths",
+  "author": {
+    "name": "humanlayer",
+    "email": "support@humanlayer.dev"
+  },
+  "repository": "https://github.com/masatoh-array/humanlayer-skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Narrow React Prop Types",
+    "shortDescription": "Narrow React prop types to match live code paths.",
+    "longDescription": "Narrow React component prop types to match live code paths",
+    "developerName": "masatoh-array",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use $narrow-react-prop-types to narrow props to live code paths."
+  }
+}

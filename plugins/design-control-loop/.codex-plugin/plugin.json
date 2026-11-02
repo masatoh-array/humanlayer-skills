@@ -1,0 +1,21 @@
+{
+  "name": "design-control-loop",
+  "version": "1.0.0",
+  "description": "Interview the user to design an agentic control loop (sensor, controller, actuator under disturbances) for their codebase, then build it as locally-runnable components plus a scheduled coding-agent workflow",
+  "author": {
+    "name": "humanlayer",
+    "email": "support@humanlayer.dev"
+  },
+  "repository": "https://github.com/masatoh-array/humanlayer-skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Design Control Loop",
+    "shortDescription": "Design and build codebase-specific agentic control loops.",
+    "longDescription": "Interview the user to design an agentic control loop (sensor, controller, actuator under disturbances) for their codebase, then build it as locally-runnable components plus a scheduled coding-agent workflow",
+    "developerName": "masatoh-array",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use $design-control-loop to design and build an agentic control loop for this codebase."
+  }
+}

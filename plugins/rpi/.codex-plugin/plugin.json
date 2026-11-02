@@ -1,0 +1,21 @@
+{
+  "name": "rpi",
+  "version": "1.1.0",
+  "description": "Research a change, work through its design, and implement it with reviewable local documents",
+  "author": {
+    "name": "humanlayer",
+    "email": "support@humanlayer.dev"
+  },
+  "repository": "https://github.com/masatoh-array/humanlayer-skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "RPI",
+    "shortDescription": "Research, design, and implement changes with local documents.",
+    "longDescription": "Research a change, work through its design, and implement it with reviewable local documents",
+    "developerName": "masatoh-array",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use $rpi to research, design, and implement this change."
+  }
+}

@@ -1,8 +1,43 @@
 # skills
 
-Claude Code skills from [HumanLayer](https://humanlayer.dev).
+Skills from [HumanLayer](https://humanlayer.dev), packaged in this fork for Claude Code and Codex.
 
 ## Installation
+
+### Codex plugins
+
+This fork provides all seven plugins through a Codex marketplace. The Codex and Claude Code plugins share the existing `skills/` directories; the Claude Code manifests and skill instructions are unchanged.
+
+Register the marketplace with a Codex CLI that supports plugins:
+
+```bash
+codex plugin marketplace add masatoh-array/humanlayer-skills --ref main
+```
+
+Install only the plugins you need:
+
+```bash
+codex plugin add rpi@humanlayer-skills
+codex plugin add improve-claude-md@humanlayer-skills
+codex plugin add narrow-react-prop-types@humanlayer-skills
+codex plugin add build-iterated-agentic-loop@humanlayer-skills
+codex plugin add design-control-loop@humanlayer-skills
+codex plugin add show-me@humanlayer-skills
+codex plugin add visual-pr@humanlayer-skills
+```
+
+Start a new Codex session after installation. Invoke skills with `$<skill-name>`, for example `$rpi` or `$show-me`. The `rpi`, `show-me`, and `visual-pr` skills require explicit invocation. `improve-claude-md` still edits `CLAUDE.md`; installing it in Codex does not change its target to `AGENTS.md`.
+
+To update, refresh the marketplace and repeat `codex plugin add` for each installed plugin:
+
+```bash
+codex plugin marketplace upgrade humanlayer-skills
+codex plugin add rpi@humanlayer-skills
+```
+
+### Individual skills (upstream)
+
+The original standalone-skill installation remains available from upstream:
 
 ```bash
 npx skills add humanlayer/skills --skill SKILLNAME
