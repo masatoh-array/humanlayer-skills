@@ -1,0 +1,21 @@
+{
+  "name": "show-me",
+  "version": "1.0.1",
+  "description": "Explain the current topic with concise diagrams, code-shape sketches, and focused HTML artifacts",
+  "author": {
+    "name": "humanlayer",
+    "email": "support@humanlayer.dev"
+  },
+  "repository": "https://github.com/masatoh-array/humanlayer-skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Show Me",
+    "shortDescription": "Explain a topic with diagrams, code sketches, and HTML.",
+    "longDescription": "Explain the current topic with concise diagrams, code-shape sketches, and focused HTML artifacts",
+    "developerName": "masatoh-array",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use $show-me to explain the current topic visually."
+  }
+}

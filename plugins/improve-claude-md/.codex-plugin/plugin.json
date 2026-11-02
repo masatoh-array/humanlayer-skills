@@ -1,0 +1,21 @@
+{
+  "name": "improve-claude-md",
+  "version": "1.0.0",
+  "description": "Rewrite a CLAUDE.md file using <important if> blocks to improve instruction adherence",
+  "author": {
+    "name": "humanlayer",
+    "email": "support@humanlayer.dev"
+  },
+  "repository": "https://github.com/masatoh-array/humanlayer-skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Improve CLAUDE.md",
+    "shortDescription": "Rewrite CLAUDE.md with conditional instruction blocks.",
+    "longDescription": "Rewrite a CLAUDE.md file using <important if> blocks to improve instruction adherence",
+    "developerName": "masatoh-array",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use $improve-claude-md to improve the requested CLAUDE.md file."
+  }
+}

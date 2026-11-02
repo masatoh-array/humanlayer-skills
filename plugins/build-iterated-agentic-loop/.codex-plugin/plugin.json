@@ -1,0 +1,21 @@
+{
+  "name": "build-iterated-agentic-loop",
+  "version": "1.0.0",
+  "description": "Build a repo-local skill plus an iterated coding-agent workflow, prompt, and memory file",
+  "author": {
+    "name": "humanlayer",
+    "email": "support@humanlayer.dev"
+  },
+  "repository": "https://github.com/masatoh-array/humanlayer-skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Build Iterated Agentic Loop",
+    "shortDescription": "Build repeatable coding-agent workflows and repo-local skills.",
+    "longDescription": "Build a repo-local skill plus an iterated coding-agent workflow, prompt, and memory file",
+    "developerName": "masatoh-array",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use $build-iterated-agentic-loop to build a repo-local skill and coding-agent workflow."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "visual-pr",
+  "version": "1.0.0",
+  "description": "Create or update a pull request with a concise visual outline for reviewers",
+  "author": {
+    "name": "humanlayer",
+    "email": "support@humanlayer.dev"
+  },
+  "repository": "https://github.com/masatoh-array/humanlayer-skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Visual PR",
+    "shortDescription": "Create concise, visual pull request descriptions.",
+    "longDescription": "Create or update a pull request with a concise visual outline for reviewers",
+    "developerName": "masatoh-array",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use $visual-pr to create or update a visual pull request description."
+  }
+}
